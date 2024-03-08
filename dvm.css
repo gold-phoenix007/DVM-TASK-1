@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    background-color: lavender;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+    background-color: lavender;
+  }
+  
+  h1 {
+    padding-top: 2rem;
+    font-size: 60px;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #searchInput{
+    height: 30px;
+    border: 3px solid black;
+    width: 99%;
+    justify-content: center;
+    margin-bottom: 1rem; 
+    font-size: large;   
+}
+  .book {
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
+  }
+  
+  .favorite {
+    color: red;
+  }
+  
+
